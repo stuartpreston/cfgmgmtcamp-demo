@@ -1,6 +1,6 @@
 name 'cfgmgmtcamp-demo'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Stuart Preston'
+maintainer_email 'stuart@chef.io'
 license ''
 description 'Installs/Configures cfgmgmtcamp-demo'
 long_description 'Installs/Configures cfgmgmtcamp-demo'
@@ -18,3 +18,5 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/cfgmgmtcamp-demo'
+
+depends 'nginx'
